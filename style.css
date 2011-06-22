@@ -1,0 +1,176 @@
+body{
+	font-size:110%;
+	letter-spacing:0.3px;
+	font-family:Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+	background-color:black;
+	margin:0;
+	padding:0;
+}
+
+header{
+	letter-spacing:2px;
+	font-size:150%;
+	text-align:center;
+	display:block;
+}
+
+header p, h1, h2{
+	margin:2px 0;
+	color:#A10824;
+}
+
+header p{
+	color:black;
+}
+
+h1{
+	font-size:300%;
+}
+h1, header{
+	margin:0;
+	padding:0;
+	
+}
+
+h1,h2{
+	text-shadow:-1px 1px 1px #000;
+}
+
+img{
+	float:right;
+	margin:0 5px 5px 15px;
+	border:2px black solid;
+}
+
+header p{
+	width:500px;
+	margin:0 auto 20px auto;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active{
+	color:#A10824;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#E14864;
+}
+
+p{
+	text-align:center;
+	margin:0 0 1em 0;
+}
+
+.cols{
+	-moz-column-count:2;
+	-moz-column-gap:50px;
+	-webkit-column-count:2;
+	-webkit-column-gap:50px;
+	column-count:2;
+	column-gap:75px;
+	line-height:1.3em;
+}
+
+.cols p{
+	text-align:justify;
+}
+
+.link{
+	font-size:45%;
+}
+
+nav{
+	display:block;
+	text-align:center;
+}
+
+nav ul{
+	padding:0;
+}
+
+nav li{
+	display:inline-block;
+	width:140px;
+	margin:10px 40px;
+	letter-spacing:1px;
+	text-align:center;
+	font-size:140%;
+}
+
+h1{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width:1024px;
+	margin:0 auto;
+	background-color:white;
+	padding:5px 20px;
+}
+
+
+li{
+	margin:2px 0;
+}
+
+.block{
+	display:block;
+	white-space:pre-wrap;
+}
+
+pre,code{
+	font-size:12px;
+	padding:0;
+	margin:0;
+}
+pre code{
+	display:block;
+}
+
+.indent{
+	display:block;
+	padding-left:1.5em;
+}
+
+section{
+	display:block;
+	margin:5px;
+}
+
+section section h1{
+	font-size:90%;	
+}
+
+section>section{
+	font-size:110%;
+}
+
+section header{
+	border-top:4px #A10824 solid;
+	padding-top:20px;
+}
+
+.downloadlink{
+	text-align:center;
+	font-size:115%;
+	margin:15px;
+	font-weight:bold;
+	padding:0;
+}
+
+.downloadlink a{
+	border:2px black solid;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	padding:5px;
+	-moz-box-shadow:0 1px 5px #000;
+	-webkit-box-shadow:0 1px 5px #000;
+	-o-box-shadow:0 1px 5px #000;
+	box-shadow:0 1px 5px #000;
+}
+
